@@ -1,0 +1,56 @@
+body {
+  color: black;
+}
+
+a {
+  color: black;
+}
+
+.nav {
+  float: right;
+  margin-right: 4%;
+}
+
+h1 {
+  font-size: 24px;
+  margin-top: 4%;
+}
+
+h3 {
+  font-size: 14px;
+  margin-top: 0;
+  color: gray;
+}
+
+textarea {
+  resize: none;
+}
+
+.header-input {
+  background: #E90013;
+  vertical-align: middle;
+  text-align: center;
+  border-radius: 8px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+}
+
+.header-input_textarea {
+  margin-top: 4%;
+  display: block;
+  width: 20%;
+  height: 24px;
+}
+
+.header-input_button {
+  margin-top: 8px;
+  display: inline-block;
+  width: 10%;
+  text-decoration: none;
+  border: 1px solid black;
+}
+
+.header-input_button a:hover {
+  color: white;
+  text-decoration: none;
+}
