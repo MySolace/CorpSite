@@ -28,8 +28,10 @@ textarea {
 
 .header-input {
   background: #E90013;
+  color: white;
   vertical-align: middle;
   text-align: center;
+  border: none;
   border-radius: 8px;
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
@@ -47,10 +49,13 @@ textarea {
   display: inline-block;
   width: 10%;
   text-decoration: none;
-  border: 1px solid black;
+}
+
+.header-input_button a {
+  color: white;
 }
 
 .header-input_button a:hover {
-  color: white;
+  color: black;
   text-decoration: none;
 }
