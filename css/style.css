@@ -27,8 +27,16 @@ textarea {
   resize: none;
 }
 
+label {
+  font-weight: normal;
+}
+
 .row, footer {
   border-top: 1px solid black;
+}
+
+.row {
+  margin-right: 0;
 }
 
 .form-control::-webkit-input-placeholder {
@@ -129,4 +137,26 @@ nav {
 .text-footnote {
   margin-top: 4%;
   margin-bottom: 0;
+}
+
+.donate-form {
+  text-align: center;
+  margin-top: 4%;
+}
+
+.donate-form_button {
+  margin-left: 2%;
+}
+
+.donation-box {
+  display: inline-block;
+  border: 1px solid black;
+  line-height: 40%;
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-bottom: 2%;
+  margin-left: 2%;
+  -webkit-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
 }
