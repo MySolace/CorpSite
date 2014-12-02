@@ -88,6 +88,11 @@ nav {
   background-size: 100%;
 }
 
+.header-padding {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 .header-form {
   background: #E90013;
   color: white;
@@ -107,6 +112,7 @@ nav {
 }
 
 .header-form_button {
+  padding: none;
   margin-top: 8px;
   display: inline-block;
   width: 10%;
