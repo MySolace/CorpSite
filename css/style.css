@@ -47,6 +47,34 @@ textarea {
     color: #fff;
 }
 
+nav {
+  margin-bottom: 8px;
+}
+
+.navbar-header img {
+  margin-top: 16px;
+}
+
+.navbar-custom {
+  margin-top: 16px;
+  background-color: transparent;
+}
+
+.navbar-custom li a {
+  color: black;
+}
+
+.navbar-custom li a:hover {
+  color: white;
+  background-color: #E90013;
+}
+
+/* Needs to be this specific to override Bootstrap */
+.navbar-collapse .navbar-custom .open .dropdown-toggle {
+  color: white;
+  background-color: #E90013;  
+}
+
 .header-photo {
   background: url('../images/header.jpeg');
   background-size: 100%;
@@ -76,9 +104,6 @@ textarea {
   width: 10%;
   text-decoration: none;
   margin-bottom: 4%;
-}
-
-.header-form_button {
   color: white;
 }
 
