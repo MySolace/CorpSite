@@ -116,19 +116,19 @@
         <div class="col-md-12">
           <div class="donate-form">
             <div class="donation-box">
-              <input name="donation-amount" id="donate-35" type="checkbox" value="$35" checked>
+              <input class="donation-amount" id="donate-35" type="checkbox" value="$35" checked>
               <label for="donate-35">$ 35</label>
             </div>
             <div class="donation-box">         
-              <input name="donation-amount" id="donate-100" type="checkbox" value="$100">
+              <input class="donation-amount" id="donate-100" type="checkbox" value="$100">
               <label for="donate-100">$ 100</label>
             </div>
             <div class="donation-box">
-              <input name="donation-amount" id="donate-500" type="checkbox" value="$500">
+              <input class="donation-amount" id="donate-500" type="checkbox" value="$500">
               <label for="donate-500">$ 500</label>
             </div>
             <div class="donation-box">
-              <input name="donation-amount" id="donate-other" type="checkbox" value="$ Other">
+              <input class="donation-amount" id="donate-other" type="checkbox" value="$ Other">
               <label for="donate-other">$ Other</label>
             </div>
             <a class="donate-form_button" href="">Donate &gt;</a> 
@@ -193,8 +193,19 @@
     </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="scripts/jquery-2.1.1.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).on('ready', function(){
+        $('.donation-amount').on('click', function(){
+          $('.donation-amount').prop('checked', false);
+          $(this).prop('checked', true);
+          console.log($(this));
+        });
+      });
+    </script>
+
   </body>
 </html>
