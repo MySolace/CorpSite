@@ -1,3 +1,7 @@
+::selection {
+  background: #E90013;
+}
+
 body {
   color: black;
   font-family: 'Cantarell', sans-serif;
@@ -15,6 +19,7 @@ a {
 h1 {
   font-size: 24px;
   margin-top: 4%;
+  font-family: 'arial';
 }
 
 h3 {
@@ -156,9 +161,10 @@ nav {
 }
 
 .donation-box {
+  background-color: #E90013;
   display: inline-block;
   border: 1px solid black;
-  line-height: 40%;
+  line-height: 60%;
   padding-left: 4px;
   padding-right: 4px;
   margin-bottom: 2%;
@@ -166,4 +172,39 @@ nav {
   -webkit-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
   -moz-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
   box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
+}
+
+.background-black {
+  background-color: #333;
+  color: white;
+}
+
+.share-photo {
+  background: url('../images/share.jpeg');
+  background-size: 100%;
+}
+
+.background-gray {
+  background-color: gray;
+}
+
+.footer-col {
+  margin-top: 4%;
+  margin-bottom: 2%;
+}
+
+.footer-col a {
+  color: white;
+}
+
+.footer-col a:hover {
+  color: #E90013;
+}
+
+.footer-col li {
+  list-style-type: none;
+}
+
+.footer-col ul {
+  padding: 0;
 }
