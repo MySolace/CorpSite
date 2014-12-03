@@ -156,6 +156,14 @@ nav {
   margin-top: 4%;
 }
 
+.donate-form a {
+  color: white;
+}
+
+.donate-form a:hover {
+  color: #E90013;
+}
+
 .donate-form_button {
   margin-left: 2%;
 }
@@ -179,13 +187,14 @@ nav {
   color: white;
 }
 
+.divider {
+  background-color: white;
+  color: black;
+}
+
 .share-photo {
   background: url('../images/share.jpeg');
   background-size: 100%;
-}
-
-.background-gray {
-  background-color: gray;
 }
 
 .footer-col {
