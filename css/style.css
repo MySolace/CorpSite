@@ -92,6 +92,13 @@ nav {
 .header-photo {
   background: url('../images/header.jpeg');
   background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 700px) {
+  .header-photo {
+    background-size: 100% 100%;
+  }
 }
 
 .header-padding {
@@ -192,9 +199,11 @@ nav {
   color: black;
 }
 
-.share-photo {
-  background: url('../images/share.jpeg');
-  background-size: 100%;
+.volunteer-photo {
+  background: url('../images/volunteer.jpeg');
+  background-size: auto 100%;
+  min-height: 400px;
+  background-repeat: no-repeat;
 }
 
 .footer-col {
@@ -203,7 +212,7 @@ nav {
 }
 
 .footer-col a {
-  color: white;
+  color: black;
 }
 
 .footer-col a:hover {
