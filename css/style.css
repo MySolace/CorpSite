@@ -200,3 +200,16 @@ nav {
 .footer-col ul {
   padding: 0;
 }
+
+.text-small {
+  font-size: 10px;
+}
+
+.copyright {
+  float: left;
+}
+
+.policy {
+  float: right;
+  margin-right: 16px;
+}
