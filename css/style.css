@@ -37,12 +37,13 @@ label {
   font-weight: normal;
 }
 
-.row, footer {
-  border-top: 1px solid black;
-}
-
 .row {
   margin-right: 0;
+}
+
+.img-thumbnail {
+  border: none;
+  margin-bottom: 2%;
 }
 
 .form-control::-webkit-input-placeholder {
@@ -87,6 +88,20 @@ nav {
 .navbar-collapse .navbar-custom .open .dropdown-toggle {
   color: white;
   background-color: #E90013;  
+}
+
+.header {
+  color: white;
+  text-shadow: 3px 3px 6px rgba(150, 150, 150, 1);
+}
+
+.header h3 {
+  color: white;
+}
+
+.text-title {
+  font-size: 48px;
+  font-weight: 500;
 }
 
 .header-photo {
@@ -153,50 +168,9 @@ nav {
   display: block;
 }
 
-.text-footnote {
-  margin-top: 4%;
-  margin-bottom: 0;
-}
-
-.donate-form {
-  text-align: center;
-  margin-top: 4%;
-}
-
-.donate-form a {
-  color: white;
-}
-
-.donate-form a:hover {
-  color: #E90013;
-}
-
-.donate-form_button {
-  margin-left: 2%;
-}
-
-.donation-box {
-  background-color: #E90013;
-  display: inline-block;
-  border: 1px solid black;
-  line-height: 60%;
-  padding-left: 4px;
-  padding-right: 4px;
-  margin-bottom: 2%;
-  margin-left: 2%;
-  -webkit-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
-  box-shadow: 2px 4px 5px 0px rgba(0,0,0,0.75);
-}
-
 .background-black {
   background-color: #333;
   color: white;
-}
-
-.divider {
-  background-color: white;
-  color: black;
 }
 
 .volunteer-photo {
