@@ -105,9 +105,11 @@ nav {
 }
 
 .header-photo {
-  background: url('../images/header.jpeg');
-  background-size: 100%;
-  background-repeat: no-repeat;
+  background: url('../images/header.jpeg') no-repeat center center;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover;    
+  -o-background-size: cover;
+  background-size: cover;  
 }
 
 @media (max-width: 720px) {
@@ -180,10 +182,12 @@ nav {
 }
 
 .volunteer-photo {
-  background: url('../images/volunteer.jpeg');
-  background-size: auto 100%;
-  min-height: 400px;
-  background-repeat: no-repeat;
+  min-height: 360px;
+  background: url('../images/volunteer.jpeg') center center;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover;    
+  -o-background-size: cover;
+  background-size: cover;  
 }
 
 .footer-col {
