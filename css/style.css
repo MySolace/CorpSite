@@ -191,7 +191,9 @@ nav {
 
 .volunteer-photo {
   min-height: 360px;
-  background: url('../images/volunteer.jpeg') center center;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  background: url('../images/volunteer.jpeg') center center no-repeat;
   -webkit-background-size: cover; 
   -moz-background-size: cover;    
   -o-background-size: cover;
