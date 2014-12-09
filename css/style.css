@@ -219,6 +219,10 @@ nav {
   padding: 0;
 }
 
+a.btn-social-icon:hover {
+  color: white;
+}
+
 .text-small {
   font-size: 10px;
   display: inline-block;
