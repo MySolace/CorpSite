@@ -70,6 +70,15 @@ nav {
   margin-top: 16px;
 }
 
+.navbar-toggle {
+  margin-top: 16px;
+  background-color: red;
+}
+
+.navbar-toggle span {
+  background-color: white;
+}
+
 .navbar-custom {
   margin-top: 16px;
   background-color: transparent;

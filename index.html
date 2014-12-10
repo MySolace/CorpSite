@@ -29,13 +29,23 @@
   </head>
   <body>
 
-    <nav class="navbar">
+    <nav class="navbar" role="navigation">
       <div class="container">
+        
         <div class="navbar-header">
           <img src="images/logo.png">
+        
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
         </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-custom">
+
+        <div id="navbar-collapse" class="navbar-collapse collapse">
+          <ul id="navbar" class="nav navbar-nav navbar-custom">
+            <input type="hidden" id="selected_menu_item" value="=$selectedMenuId; ?>" />  
             <li><a href="#">Give Hope</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Menu<span class="caret"></span></a>
@@ -47,6 +57,7 @@
             </li>
           </ul>
         </div>
+
       </div>
     </nav>
 
@@ -172,10 +183,19 @@
 
     <script type="text/javascript">
       $(document).on('ready', function(){
-        $('.donation-amount').on('click', function(){
-          $('.donation-amount').prop('checked', false);
-          $(this).prop('checked', true);
-          console.log($(this));
+        var stacked = false;
+        //Stack menu when collapsed
+        $('.navbar-toggle').on('touchstart', function() {
+            if(stacked){
+              stacked = false;
+              $('.navbar-nav').removeClass('nav-stacked');
+            }
+            else{
+              stacked = true;
+              $('#navbar').addClass('nav-stacked');
+              $('#navbar').addClass('nav-pills');
+            }
+            console.log(stacked);
         });
       });
     </script>
