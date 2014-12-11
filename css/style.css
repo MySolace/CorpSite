@@ -40,6 +40,7 @@ label {
 
 a {
   color: black;
+  text-decoration: none;
 }
 
 a:hover {
@@ -102,6 +103,7 @@ nav {
   background-color: white;
 }
 
+/* Alternative to the navbar-default */
 .navbar-custom {
   margin-top: 16px;
   background-color: transparent;
@@ -215,7 +217,7 @@ nav {
 /* VOLUNTEER SECTION */
 /* ----------------- */
 
-.background-black {
+.row-dark {
   background-color: #333;
   color: white;
 }
@@ -278,4 +280,51 @@ a.btn-social-icon:hover {
     float: left;
   }
 
+}
+
+/* SOCIAL */
+/* ------ */
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.eot?-astlkk');
+  src:url('fonts/icomoon.eot?#iefix-astlkk') format('embedded-opentype'),
+    url('fonts/icomoon.woff?-astlkk') format('woff'),
+    url('fonts/icomoon.ttf?-astlkk') format('truetype'),
+    url('fonts/icomoon.svg?-astlkk#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  margin-top: 16px;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:hover, [class*=" icon-"]:hover {
+  color: #E90013;
+}
+
+.icon-facebook:before {
+  content: "\e601";
+}
+.icon-facebook2:before {
+  content: "\e602";
+}
+.icon-twitter:before {
+  content: "\e603";
+}
+.icon-twitter2:before {
+  content: "\e604";
 }
