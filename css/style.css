@@ -20,19 +20,19 @@ label {
 }
 
 .form-control::-webkit-input-placeholder {
-    color: #fff;
+    color: #bdc3c7;
 }
 .form-control:-moz-placeholder {
     /* FF 4-18 */
-    color: #fff;
+    color: #bdc3c7;
 }
 .form-control::-moz-placeholder {
     /* FF 19+ */
-    color: #fff;
+    color: #bdc3c7;
 }
 .form-control:-ms-input-placeholder {
     /* IE 10+ */
-    color: #fff;
+    color: #bdc3c7;
 }
 
 /* TEXT */
@@ -56,7 +56,7 @@ h1 {
 h3 {
   font-size: 14px;
   margin-top: 0;
-  color: gray;
+  color: #bdc3c7;
   margin-bottom: 4%;
 }
 
@@ -135,7 +135,7 @@ nav {
 
 .header {
   color: white;
-  text-shadow: 3px 3px 6px rgba(150, 150, 150, 1);
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.75);
 }
 
 .header h3 {
@@ -174,6 +174,9 @@ nav {
 }
 
 .header-form_input {
+  text-align: left;
+  background-color: white;
+  color: #E90013;
   display: block;
   overflow: visible;
   -webkit-box-sizing: border-box;
@@ -304,7 +307,6 @@ a.btn-social-icon:hover {
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
-  margin-top: 16px;
   line-height: 1;
 
   /* Better Font Rendering =========== */
